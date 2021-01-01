@@ -1,8 +1,16 @@
 import "./App.css";
-import Hello from "./Navbar/navbar";
+import Navbar from "./Navbar/navbar";
 
 function App() {
-  return <div className="App">div.test</div>;
+  const title = "MyApp";
+  return (
+    <div>
+      <Navbar
+        data={["Home", "About", "Privacy", "Contact Us"]}
+        appLogo={title}
+      />
+    </div>
+  );
 }
 
 export default App;
