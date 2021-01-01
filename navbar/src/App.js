@@ -1,18 +1,8 @@
-import './App.css';
-import Hello from './Navbar/navbar'
+import "./App.css";
+import Hello from "./Navbar/navbar";
 
 function App() {
-  const testing = 'testing';
-      if(testing === "testing") {
-    console.log(testing)
-  } else {
-    console.log('sabali')
-  }
-  return (
-    <div className="App">
-      
-    </div>
-  );
+  return <div className="App">div.test</div>;
 }
 
 export default App;
